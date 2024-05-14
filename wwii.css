@@ -1,0 +1,296 @@
+*{
+    box-sizing:border-box;
+}
+
+
+.reloj {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border: 2px solid #add8e6; 
+    border-radius: 5px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: fit-content; 
+}   
+
+.ima{
+    background-color: cornflowerblue;
+    padding: 5px;
+    
+    max-width: 100%; 
+    height: 180%; 
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden; 
+    display: block; /* Asegura que la imagen sea un elemento de bloque */
+}
+
+/*.encabezado{
+    padding: 25px;
+    background: url(encabezado1.jpeg);
+    color:#e8f1ff;
+    font-size: 45px;
+    text-align: center;
+}*/
+
+.encabezado2{
+    padding: 25px;
+    background: url(alemmmz.jpg);
+    background-size: cover;
+    color:#ffffff;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 
+    -2px -2px 0 #001129,  
+    2px -2px 0 #001129,
+   -2px  2px 0 #001129,
+    1px  1px 0 #001129; /* Agrega un borde oscuro alrededor del título */
+
+    
+}
+
+
+.encabezado3{
+    padding: 25px;
+    background: url(japonnn.jpg);
+    background-size: cover;
+    color:#ffffff;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 
+    -2px -2px 0 #001129,  
+    2px -2px 0 #001129,
+   -2px  2px 0 #001129,
+    1px  1px 0 #001129; /* Agrega un borde oscuro alrededor del título */
+}
+
+.encabezado4{
+    padding: 25px;
+    background: url(italyy.jpg);
+    background-size: cover;
+    color:#ffffff;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 
+    -2px -2px 0 #001129,  
+    2px -2px 0 #001129,
+   -2px  2px 0 #001129,
+    1px  1px 0 #001129; /* Agrega un borde oscuro alrededor del título */
+
+}
+
+
+.encabezado5{
+    padding: 25px;
+    background: url(encabezado5.jpeg);
+    background-size: cover;
+    color:#ffffff;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 
+    -2px -2px 0 #001129,  
+     2px -2px 0 #001129,
+    -2px  2px 0 #001129,
+     1px  1px 0 #001129; /* Agrega un borde oscuro alrededor del título */
+}
+
+.encabezado6{
+    padding: 25px;
+    background: url(encabezado6.jpeg);
+    background-size: cover;
+    color:#ffffff;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 
+    -2px -2px 0 #001129,  
+     2px -2px 0 #001129,
+    -2px  2px 0 #001129,
+     1px  1px 0 #001129; /* Agrega un borde oscuro alrededor del título */
+
+}
+
+.encabezado7{
+    padding: 25px;
+    background: url(encabezado7.jpeg);
+    background-size: cover;
+    color:#e8f1ff;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 
+    -2px -2px 0 #001129,  
+     2px -2px 0 #001129,
+    -2px  2px 0 #001129,
+     1px  1px 0 #001129; /* Agrega un borde oscuro alrededor del título */
+
+}
+
+.encabezado8{
+    padding: 25px;
+    background: url(encabezado8.jpeg);
+    background-size: cover;
+    color:#e8f1ff;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 
+    -2px -2px 0 #001129,  
+     2px -2px 0 #001129,
+    -2px  2px 0 #001129,
+     1px  1px 0 #001129; /* Agrega un borde oscuro alrededor del título */
+
+}
+
+.encabezado9{
+    padding: 25px;
+    background: url(pooo.jpg);
+    background-size: cover;
+    color:#e8f1ff;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 
+    -2px -2px 0 #001129,  
+     2px -2px 0 #001129,
+    -2px  2px 0 #001129,
+     1px  1px 0 #001129; /* Agrega un borde oscuro alrededor del título */
+
+}
+
+
+
+body{
+    background-color:#001129;
+    margin: 0;
+}
+.imagen {
+    background-color: cornflowerblue;
+    padding: 5px;
+    text-align: center;
+    max-width: 1270px; 
+    height: 340px; 
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden; 
+}
+
+.portada {
+    width: 100%;
+    height: 100%; 
+    max-height: 100%; 
+   
+}
+.titulo{
+    font-size: 40px;
+    font-family: Fjalla One;
+}
+.titulo, .titulo2{
+    background-color: darkslategray;
+    color:white;
+    text-align: center;
+}
+
+/*MENU EJE*/
+.menueje{
+     overflow: hidden;
+    text-align: center;
+    margin:0;
+}
+.menueje a{
+     background-color: white;
+    float:left;
+    display:block;
+    text-align: center;
+    color:#afdaff;
+    padding:25px;
+    width: 100%;
+    text-decoration: none;
+}
+.menueje a.alemania{
+    background-color: #1b5050;
+}
+.menueje a.japon{
+    background-color: #286f6f;
+}
+.menueje a.italia{
+    background-color: rgba(47, 109, 109, 0.93);
+}
+.menueje a:hover{
+    color:white;
+    background-color: #7a8be9;
+    
+}
+/*MENU*/
+.menu{
+    overflow: hidden;
+    text-align: center;
+    margin:0;
+} 
+
+.menu a{
+    background-color: white;
+    float:left;
+    display:block;
+    text-align: center;
+    color:#afdaff;
+    padding:25px;
+    width: 100%;
+    text-decoration: none;
+}
+.menu a.aliados{
+    background-color: #286f6f;
+}
+.menu a.eje{
+    background-color: rgba(47, 109, 109, 0.93);
+}
+.menu a.activa{
+    background-color: #1b5050;
+}
+
+.menu a:hover{
+    color:white;
+    background-color: #7a8be9;
+    
+}
+.menu .icon{
+    display:none;
+    padding: 20px;
+    margin: auto;
+}
+
+
+.pie{
+    background-color: darkslategray;
+    padding: 20px;
+    text-align: center;
+    height: 50px;
+    align-content: center;
+}
+
+
+@media screen and (max-width: 600px){
+    .menu a:not(:first-child){display:none; }
+    .menu a.icon{
+        float: right;
+        display:block;
+        line-height: 50px; /* Ajustar la altura de línea para centrar verticalmente el ícono */
+        padding: 0px 20px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .menu.responsive {position:relative;}
+    .menu.responsive .icon{
+        position:absolute;
+        right:0;
+        top:0px;
+        padding:10px;
+    }
+    .menu.responsive a{
+        float: none;
+        display: block;
+    }
+    }
+
+
+
